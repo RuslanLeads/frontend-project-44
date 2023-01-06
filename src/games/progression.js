@@ -14,10 +14,10 @@ const brainProgression = () => {
   for (let i = 0; i !== 10; i += 1) {
     arithmeticProgression.push(currentInt);
     currentInt += difference;
-  };
+  }
 
   const index = getRandomInt(0, 9);
-  const correctAnswer =  arithmeticProgression[index];
+  const correctAnswer = arithmeticProgression[index];
 
   arithmeticProgression[index] = '..';
   const question = arithmeticProgression.join(' ');
