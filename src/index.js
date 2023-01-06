@@ -18,7 +18,7 @@ const game = (questionGame, expressionAndCorrectAnswer) => {
     }
 
     if (i === 2) { // считае кол-во раундов, начиная с 0
-      console.log('Congratulations, Bill!');
+      console.log(`Congratulations! ${userName}!`);
     }
   }
 };
